@@ -1,0 +1,8 @@
+prefix=/home/ieee/catkin_ws/install
+
+Name: elevation_mapping
+Description: Description of elevation_mapping
+Version: 0.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lelevation_mapping_library
+Requires: grid_map_core grid_map_ros grid_map_msgs pcl_ros roscpp message_filters sensor_msgs std_msgs tf tf_conversions eigen_conversions

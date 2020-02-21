@@ -1,0 +1,32 @@
+point_cloud_topic: "/stereo/cloudXYZ"
+sensor_processor/type: "Kinect"
+robot_pose_topic: "base_link"
+base_frame_id: "base_link"
+map_frame_id: "base_link"
+robot_base_frame_id: "base_link"
+track_point_frame_id: "base_link"
+track_point_x: 0.0
+track_point_y: 0.0
+track_point_z: 0.0
+robot_pose_cache_size: 0
+min_update_rate: 15.0
+fused_map_publishing_rate: 0
+relocate_rate: 0.0
+time_tolerance: 0.0
+
+length_in_x: 3.0
+length_in_y: 3.0
+position_x: 1.5
+position_y: 0.0
+resolution: 0.1 #10cm
+min_variance: 0
+max_variance: 0
+mahalanobis_distance_threshold: 2.5 #5cm
+multi_height_noise: 0
+min_horizontal_variance: 0.0
+max_horizontal_variance: 0.0
+sensor_cutoff_min_depth: 0.0
+sensor_cutoff_max_depth: 0.0
+surface_normal_estimation_radius: 0.01
+surface_normal_positive_axis: z
+

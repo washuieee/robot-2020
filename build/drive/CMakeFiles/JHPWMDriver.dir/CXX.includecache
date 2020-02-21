@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ieee/catkin_ws/src/drive/include/drive/JHPWMDriver/src/JHPWMPCA9685.cpp
+JHPWMPCA9685.h
+/home/ieee/catkin_ws/src/drive/include/drive/JHPWMDriver/src/JHPWMPCA9685.h
+math.h
+-
+i2c/smbus.h
+-
+
+/home/ieee/catkin_ws/src/drive/include/drive/JHPWMDriver/src/JHPWMPCA9685.h
+cstddef
+-
+linux/i2c.h
+-
+linux/i2c-dev.h
+-
+sys/ioctl.h
+-
+cstdlib
+-
+cstdio
+-
+fcntl.h
+-
+unistd.h
+-
+errno.h
+-
+

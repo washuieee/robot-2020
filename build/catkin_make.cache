@@ -1,0 +1,2 @@
+async_web_server_cpp:drive:image_common/camera_calibration_parsers:image_common/camera_info_manager:image_common/image_common:image_common/image_transport:image_common/polled_camera:ocams_1cgn:silver_carriage/elevation_mapping:silver_carriage/ocams:video_stream_opencv:vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_tests:vision_opencv/vision_opencv:web_video_server
+-DCATKIN_DEVEL_PREFIX=/home/ieee/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ieee/catkin_ws/install -G Unix Makefiles

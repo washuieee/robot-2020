@@ -1,0 +1,8 @@
+prefix=/home/ieee/catkin_ws/devel
+
+Name: ocams
+Description: Description of ocams
+Version: 1.1.0
+Cflags: -I/home/ieee/catkin_ws/devel/include -I/home/ieee/catkin_ws/src/silver_carriage/ocams/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs cv_bridge image_transport camera_info_manager sensor_msgs tf dynamic_reconfigure

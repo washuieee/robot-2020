@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ieee/catkin_ws/src/drive/include/drive/Adafruit-PWM-Servo-Driver-Library/Adafruit_PWMServoDriver.cpp
+Adafruit_PWMServoDriver.h
+/home/ieee/catkin_ws/src/drive/include/drive/Adafruit-PWM-Servo-Driver-Library/Adafruit_PWMServoDriver.h
+Wire.h
+-
+
+/home/ieee/catkin_ws/src/drive/include/drive/Adafruit-PWM-Servo-Driver-Library/Adafruit_PWMServoDriver.h
+Arduino.h
+-
+Wire.h
+-
+
